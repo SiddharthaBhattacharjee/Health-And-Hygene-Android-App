@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="382dp"
+        android:layout_height="627dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/iconmin"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sacramento"
+                    android:text="Health and Hygene"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="20dp"
+                android:background="?android:attr/listDivider" />
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sacramento"
+                    android:gravity="left"
+                    android:paddingLeft="60dp"
+                    android:paddingRight="20dp"
+                    android:text="Health"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/divider511"
+                    android:layout_width="1dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:fontFamily="@font/sacramento"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="60dp"
+                    android:text="Hygene"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="156dp"
+                    android:layout_height="158dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="open"
+                    app:srcCompat="@drawable/diet" />
+
+                <View
+                    android:id="@+id/divider5"
+                    android:layout_width="1dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="156dp"
+                    android:layout_height="158dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:onClick="open"
+                    app:srcCompat="@drawable/foodhygene" />
+
+            </FrameLayout>
+
+            <View
+                android:id="@+id/divider61"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="156dp"
+                    android:layout_height="158dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="open"
+                    app:srcCompat="@drawable/meditate" />
+
+                <View
+                    android:id="@+id/divider51"
+                    android:layout_width="1dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="156dp"
+                    android:layout_height="158dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:onClick="open"
+                    app:srcCompat="@drawable/sanitation" />
+
+            </FrameLayout>
+
+            <View
+                android:id="@+id/divider62"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="156dp"
+                    android:layout_height="158dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="open"
+                    app:srcCompat="@drawable/yoga" />
+
+                <View
+                    android:id="@+id/divider52"
+                    android:layout_width="1dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="156dp"
+                    android:layout_height="158dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:onClick="open"
+                    app:srcCompat="@drawable/publichygene" />
+
+            </FrameLayout>
+
+            <View
+                android:id="@+id/divider63"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="156dp"
+                    android:layout_height="158dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="open"
+                    app:srcCompat="@drawable/exercise" />
+
+                <View
+                    android:id="@+id/divider53"
+                    android:layout_width="1dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_width="156dp"
+                    android:layout_height="158dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:onClick="open"
+                    app:srcCompat="@drawable/cleanhome" />
+
+            </FrameLayout>
+
+            <View
+                android:id="@+id/divider64"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
