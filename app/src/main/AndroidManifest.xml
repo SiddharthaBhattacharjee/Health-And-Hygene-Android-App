@@ -10,10 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthAndHygene">
         <activity
+            android:name=".MainActivity4"
+            android:exported="false"
+            android:label="Exercise for You"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false"
+            android:label="Healthy Diet"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false"
             android:label="NEXT PAGE EMPTY"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

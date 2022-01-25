@@ -46,7 +46,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/sacramento"
-                    android:text="Health and Hygene"
+                    android:text="Health and Hygiene"
                     android:textSize="34sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -95,7 +95,7 @@
                     android:fontFamily="@font/sacramento"
                     android:paddingLeft="20dp"
                     android:paddingRight="60dp"
-                    android:text="Hygene"
+                    android:text="Hygiene"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -118,7 +118,7 @@
                     android:layout_height="158dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"
-                    android:onClick="open"
+                    android:onClick="open1"
                     app:srcCompat="@drawable/diet" />
 
                 <View
@@ -232,7 +232,7 @@
                     android:layout_height="158dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"
-                    android:onClick="open"
+                    android:onClick="open4"
                     app:srcCompat="@drawable/exercise" />
 
                 <View

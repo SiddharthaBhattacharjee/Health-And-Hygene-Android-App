@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main.xml" value="0.22239583333333332" />
+        <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main2.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main3.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main4.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/menu/main_menu.xml" value="0.23645833333333333" />
       </map>
     </option>
   </component>
