@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_dark"
     tools:context=".MainActivity4">
 
     <ScrollView
@@ -12,6 +13,7 @@
         android:layout_height="676dp"
         android:layout_marginStart="27dp"
         android:layout_marginEnd="27dp"
+        android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +31,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="40dp"
                 android:fontFamily="@font/poppins_semibold"
-                android:text="KNOW YOUR BMI"
+                android:shadowColor="@color/black"
+                android:text="Let's find out if you are a healthy weight. "
+                android:textColor="@color/white"
                 android:textSize="24sp" />
 
             <TableLayout
@@ -46,15 +50,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Height : "
+                        android:textColor="@color/white"
+                        android:textColorHighlight="@color/black"
                         android:textSize="20sp" />
 
                     <EditText
                         android:id="@+id/height1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:backgroundTint="?attr/colorButtonNormal"
                         android:ems="10"
                         android:hint="in cm"
-                        android:inputType="number" />
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="@android:color/darker_gray" />
 
                 </TableRow>
 
@@ -67,15 +76,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Weight : "
+                        android:textColor="@color/white"
                         android:textSize="20sp" />
 
                     <EditText
                         android:id="@+id/weight1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:backgroundTint="?attr/colorButtonNormal"
                         android:ems="10"
                         android:hint="in Kg"
                         android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="@android:color/darker_gray"
                         tools:ignore="TouchTargetSizeCheck" />
 
                 </TableRow>
@@ -107,6 +120,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:text="YOUR BMI IS : "
+                    android:textColor="@color/white"
                     android:textSize="20sp" />
 
                 <TextView
@@ -114,6 +128,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="00"
+                    android:textColor="@color/white"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -125,6 +140,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="YOUR BMI STATUS"
+                android:textColor="@color/white"
                 android:textSize="16sp" />
 
             <View
@@ -132,6 +148,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="For tips on maintaining a healthy weight, head to the "
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="linkhealthydiet"
+                android:text="Healthy Diet Section."
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="openstepcounter"
+                android:text="Steps Counter" />
 
         </LinearLayout>
     </ScrollView>

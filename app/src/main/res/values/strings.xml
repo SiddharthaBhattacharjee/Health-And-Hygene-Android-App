@@ -3,4 +3,113 @@
     <string name="diet_tips_head">
         25 Simple Tips to Make Your Diet Healthier :
     </string>
+    <string name="diet_tips_body">
+        \n
+        1.	Slow down the pace of eating food.\n
+        2.	Choose whole grain bread instead of refined.\n
+        3. Add Greek yogurt to your diet.\n
+        4. Don’t shop without a list and when you are hungry.\n
+        5. Eat eggs,in breakfast to get protein faster.\n
+        6. Increase your protein intake.\n
+        7. Drink enough water.\n
+        8. Bake or roast instead of grilling or frying.\n
+        9. Take omega-3 and vitamin D supplements.\n
+        10. Replace your favorite fast food restaurant.\n
+        11. Try at least one new healthy recipe per week.\n
+        12. Choose baked potatoes over french fries.\n
+        13. Eat your greens first.\n
+        14. Eat your fruits instead of drinking them.\n
+        15. Cook at home more often.\n
+        16. Become more active.\n
+        17. Replace sugary beverages with sparkling water.\n
+        18. Stay away from “diet” foods.\n
+        19. Get a good night’s sleep.\n
+        20. Eat fresh berries instead of dried ones.\n
+        21. Choose popcorn instead of chips.\n
+        22. Choose healthy oils.\n
+        23. Eat from smaller plates.\n
+        24. Get the salad dressing on the side.\n
+        25. Drink black coffee instead of tea.\n
+    </string>
+    <string name="Key_facts_body">
+        •	A healthy diet helps to protect against malnutrition in all its forms, as well as noncommunicable diseases (NCDs), including such as diabetes, heart disease, stroke and cancer.\n
+    •	Unhealthy diet and lack of physical activity are leading global risks to health.\n
+    •	Healthy dietary practices start early in life – breastfeeding fosters healthy growth and improves cognitive development, and may have longer term health benefits such as reducing the risk of becoming overweight or obese and developing NCDs later in life.\n
+    •	Energy intake (calories) should be in balance with energy expenditure. To avoid unhealthy weight gain, total fat should not exceed 30% of total energy intake (1, 2, 3). Intake of saturated fats should be less than 10% of total energy intake, and intake of trans-fats less than 1% of total energy intake, with a shift in fat consumption away from saturated fats and trans-fats to unsaturated fats (3), and towards the goal of eliminating industrially-produced trans-fats (4, 5, 6).\n
+    •	Limiting intake of free sugars to less than 10% of total energy intake (2, 7) is part of a healthy diet. A further reduction to less than 5% of total energy intake is suggested for additional health benefits (7).\n
+    •	Keeping salt intake to less than 5 g per day (equivalent to sodium intake of less than 2 g per day) helps to prevent hypertension, and reduces the risk of heart disease and stroke in the adult population (8).\n
+    •	WHO Member States have agreed to reduce the global population’s intake of salt by 30% by 2025; they have also agreed to halt the rise in diabetes and obesity in adults and adolescents as well as in childhood overweight by 2025 (9, 10).\n
+    </string>
+
+    <string name="overview_body">
+        Consuming a healthy diet throughout the life-course helps to prevent malnutrition in all its forms as well as a range of noncommunicable diseases (NCDs) and conditions. However, increased production of processed foods, rapid urbanization and changing lifestyles have led to a shift in dietary patterns. People are now consuming more foods high in energy, fats, free sugars and salt/sodium, and many people do not eat enough fruit, vegetables and other dietary fibre such as whole grains.
+The exact make-up of a diversified, balanced and healthy diet will vary depending on individual characteristics (e.g. age, gender, lifestyle and degree of physical activity), cultural context, locally available foods and dietary customs. However, the basic principles of what constitutes a healthy diet remain the same.
+    </string>
+
+    <string name="calval">
+        <b>Calories in Fruits per 100 Grams : </b>\n\n
+        Calories in Apple 56 \n
+        Calories in Avocado Pear 190 \n
+        Calories in Banana 95 \n
+        Calories in Chickoo 94 \n
+        Calories in Cherries 70 \n
+        Calories in Dates 281 \n
+        Calories in Grapes Black 45 \n
+        Calories in Guava 66 \n
+        Calories in Kiwi Fruit 45 \n
+        Calories in Lychies 61 \n
+        Calories in Mangoes 70 \n
+        Calories in Orange 53 \n
+        Calories in Orange juice 100ml 47 \n
+        Calories in Papaya 32 \n
+        Calories in Peach 50 \n
+        Calories in Pears 51 \n
+        Calories in Pineapple 46 \n
+        Calories in Plums 56 \n
+        Calories in Strawberries 77 \n
+        Calories in Watermelon 26 \n
+        Calories in Pomegranate 77 \n\n\n
+        <b>Calories in Vegetables per 100 Grams : </b>\n
+        Calories in Broccoli 25 \n
+        Calories in Brinjal 24 \n
+        Calories in Cabbage 45 \n
+        Calories in Carrot 48 \n
+        Calories in Cauliflower 30 \n
+        Calories in Fenugreek (Methi) 49 \n
+        Calories in French beans 26 \n
+        Calories in Lettuce 21 \n
+        Calories in Mushroom 18 \n
+        Calories in Onion 50 \n
+        Calories in Peas 93 \n
+        Calories in Potato 97 \n
+        Calories in Spinach 100g \n
+        Calories in Spinach 1 leaf \n
+        Calories in Tomato 21 \n
+        Calories in Tomato juice 100ml 22 \n
+        Calories in Cereals per 100 Grams \n
+        Calories in Bajra 360 \n
+        Calories in Maize flour 355 \n
+        Calories in Rice 325 \n
+        Calories in Wheat flour 341\n\n\n
+        <b>Calories in Breads per piece : </b>\n
+        1 medium chapatti 119\n
+        1 slice white bread 60 \n
+        1 paratha (no filling) 280 \n\n\n
+        <b>Calories in Milk and Milk Products per cup : </b>\n
+        Calories in Butter 100gms. 750 \n
+        Calories in Buttermilk 19 \n
+        Calories in Cheese 315 \n
+        Calories in Cream 100gms. 210 \n
+        Calories in Ghee 100gms 910 \n
+        Calories in Milk Buffalo 115 \n
+        Calories in Milk Cow 100 \n
+        Calories in Milk Skimmed 45 \n
+        Calories in Other Items \n
+        Calories in Sugar 1 tbsp 48 \n
+        Calories in Honey 1 tbsp 90 \n
+        Calories in Coconut water 100 ml 25 \n
+        Calories in Coffee 40 \n
+        Calories in Tea 30 \n
+    </string>
+
 </resources>

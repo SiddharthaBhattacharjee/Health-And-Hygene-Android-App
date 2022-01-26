@@ -1,11 +1,15 @@
 package com.example.healthandhygene;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
@@ -15,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     @Override
@@ -22,6 +27,16 @@ public class MainActivity extends AppCompatActivity {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.main_menu,menu);
         return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+        if(id==R.id.menu_contact){
+            Toast.makeText(this, "Opening Contact Us.", Toast.LENGTH_SHORT).show();
+            Intent i = new Intent(this,MainActivity6.class);
+            startActivity(i);
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     public void open(View view){

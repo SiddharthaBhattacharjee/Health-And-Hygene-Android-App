@@ -2,6 +2,7 @@ package com.example.healthandhygene;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -48,5 +49,14 @@ public class MainActivity4 extends AppCompatActivity {
         else{
             statusout.setText("You are Extremely Obese");
         }
+    }
+    public void linkhealthydiet(View view){
+        Intent i = new Intent(this,MainActivity3.class);
+        startActivity(i);
+        finish();
+    }
+    public void openstepcounter(View view){
+        Intent i = new Intent(this,MainActivity5.class);
+        startActivity(i);
     }
 }

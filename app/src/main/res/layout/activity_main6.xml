@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_dark"
+    tools:context=".MainActivity6">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="328dp"
+        android:layout_height="720dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="CONTACT US ON :"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+
+            <View
+                android:id="@+id/divider11"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="HARSHIT SHUKLA"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Hey folks Myself Harshit Shukla and currently am pursuing Btech from SRMIST in second year , Developer"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="call1"
+                    app:srcCompat="@drawable/callicon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="insta1"
+                    app:srcCompat="@drawable/instaicon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="LI1"
+                    app:srcCompat="@drawable/linkedinicon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="email1"
+                    app:srcCompat="@drawable/mailicon" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="SIDDHARTHA BHATTACHARJEE"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView232"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Student at SRM IST Ramapuram , Chennai | Member at CodeChef SRM RMP | Android Developer at GDSE SRM IST | Passionate Programmer, Android Developer."
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton32"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="call2"
+                    app:srcCompat="@drawable/callicon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="insta2"
+                    app:srcCompat="@drawable/instaicon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="LI2"
+                    app:srcCompat="@drawable/linkedinicon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="email2"
+                    app:srcCompat="@drawable/mailicon" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="PRIYANSHU DASH"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView233"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Student at SRM IST Ramapurm, Chennai, Studying CSE 1st Year, Designer and Passionate Web Developer."
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton33"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="call3"
+                    app:srcCompat="@drawable/callicon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="insta3"
+                    app:srcCompat="@drawable/instaicon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="LI3"
+                    app:srcCompat="@drawable/linkedinicon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="email3"
+                    app:srcCompat="@drawable/mailicon" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="RAGUL R"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Student at SRM IST Ramapurm, Chennai, Studying CSE 1st Year, Designer and Passionate Web Developer."
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton34"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="call4"
+                    app:srcCompat="@drawable/callicon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="insta4"
+                    app:srcCompat="@drawable/instaicon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="LI4"
+                    app:srcCompat="@drawable/linkedinicon" />
+
+                <ImageButton
+                    android:id="@+id/imageButton64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="email4"
+                    app:srcCompat="@drawable/mailicon" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

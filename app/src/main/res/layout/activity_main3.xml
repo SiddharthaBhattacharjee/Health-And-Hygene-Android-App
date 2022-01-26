@@ -4,31 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_dark"
+    app:circularflow_radiusInDP="40dp"
     tools:context=".MainActivity3">
 
     <ScrollView
         android:id="@+id/scrollView3"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="338dp"
+        android:layout_height="677dp"
         android:layout_marginStart="27dp"
         android:layout_marginEnd="27dp"
+        android:fadeScrollbars="true"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:verticalScrollbarPosition="right"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="40dp"
                 android:fontFamily="@font/poppins_semibold"
                 android:text="Calculate your appropriate amount of Calorie Intake per day for a healthy Diet : "
+                android:textColor="@color/white"
                 android:textSize="16sp" />
 
             <TableRow
@@ -42,6 +52,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Gender : "
+                    android:textColor="@color/white"
                     android:textSize="20sp" />
 
                 <RadioGroup
@@ -54,20 +65,22 @@
                         android:id="@+id/radioButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Male" />
+                        android:text="Male"
+                        android:textColor="@color/white" />
 
                     <RadioButton
                         android:id="@+id/radioButton2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Female" />
+                        android:text="Female"
+                        android:textColor="@color/white" />
                 </RadioGroup>
 
             </TableRow>
 
             <TableLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -78,15 +91,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Height : "
+                        android:textColor="@color/white"
                         android:textSize="20sp" />
 
                     <EditText
                         android:id="@+id/height1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:backgroundTint="?attr/colorButtonNormal"
                         android:ems="10"
                         android:hint="in cm"
-                        android:inputType="number" />
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="@android:color/darker_gray" />
 
                 </TableRow>
 
@@ -99,37 +116,45 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Weight : "
+                        android:textColor="@color/white"
                         android:textSize="20sp" />
 
                     <EditText
                         android:id="@+id/weight1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:backgroundTint="?attr/colorButtonNormal"
                         android:ems="10"
                         android:hint="in Kg"
                         android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="@android:color/darker_gray"
                         tools:ignore="TouchTargetSizeCheck" />
 
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent">
 
                     <TextView
                         android:id="@+id/textView10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Age : "
+                        android:textColor="@color/white"
                         android:textSize="20sp" />
 
                     <EditText
                         android:id="@+id/age"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:backgroundTint="?attr/colorButtonNormal"
                         android:ems="10"
                         android:hint="in years"
-                        android:inputType="number" />
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="@android:color/darker_gray" />
 
                 </TableRow>
 
@@ -137,10 +162,15 @@
 
             <Button
                 android:id="@+id/button"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/teal_700"
                 android:onClick="calc"
-                android:text="Calculate" />
+                android:shadowColor="@color/black"
+                android:text="Calculate"
+                app:rippleColor="@color/teal_700"
+                app:strokeColor="@color/teal_700" />
 
             <View
                 android:id="@+id/divider2"
@@ -155,6 +185,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:text="Your Recomended Daily Calorie Input is : -- - --"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <View
@@ -167,15 +198,114 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/poppins_semibold"
+                android:shadowColor="@color/white"
                 android:text="@string/diet_tips_head"
+                android:textColor="@color/white"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="@string/diet_tips_body"
+                android:textColor="@color/white" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="KEY FACTS :"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="@string/Key_facts_body"
+                android:textColor="@color/white" />
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Overview :"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="@string/overview_body"
+                android:textColor="@color/white" />
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:background="?android:attr/listDivider" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="487dp"
+                app:srcCompat="@drawable/calchart" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:shadowColor="@color/white"
+                android:text="The calorie chart of Indian food,  so keep a track of the calorie intake and  adopt healthy eating habits :"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:shadowColor="@color/white"
+                android:text="@string/calval"
+                android:textColor="@color/white" />
 
         </LinearLayout>
     </ScrollView>

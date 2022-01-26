@@ -10,10 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthAndHygene">
         <activity
+            android:name=".MainActivity6"
+            android:exported="false"
+            android:label="Contact Us"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false"
+            android:label="STEP COUNTER"
+            android:parentActivityName=".MainActivity4"/>
+        <activity
             android:name=".MainActivity4"
             android:exported="false"
             android:label="Exercise for You"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity3"
             android:exported="false"
