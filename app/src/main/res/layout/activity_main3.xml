@@ -41,6 +41,14 @@
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
+            <View
+                android:id="@+id/divider19"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
+
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -188,11 +196,11 @@
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
-            <View
-                android:id="@+id/divider3"
+            <ImageView
+                android:id="@+id/imageView5"
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:background="?android:attr/listDivider" />
+                android:layout_height="252dp"
+                app:srcCompat="@drawable/vegis" />
 
             <TextView
                 android:id="@+id/textView11"
@@ -204,6 +212,14 @@
                 android:text="@string/diet_tips_head"
                 android:textColor="@color/white"
                 android:textSize="24sp" />
+
+            <View
+                android:id="@+id/divider20"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -230,6 +246,14 @@
                 android:textColor="@color/white"
                 android:textSize="24sp" />
 
+            <View
+                android:id="@+id/divider21"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
+
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
@@ -246,6 +270,12 @@
                 android:layout_marginTop="20dp"
                 android:background="?android:attr/listDivider" />
 
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/healthydietpic" />
+
             <TextView
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
@@ -255,6 +285,14 @@
                 android:text="Overview :"
                 android:textColor="@color/white"
                 android:textSize="24sp" />
+
+            <View
+                android:id="@+id/divider22"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -295,6 +333,14 @@
                 android:text="The calorie chart of Indian food,  so keep a track of the calorie intake and  adopt healthy eating habits :"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
+
+            <View
+                android:id="@+id/divider23"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
 
             <TextView
                 android:id="@+id/textView22"

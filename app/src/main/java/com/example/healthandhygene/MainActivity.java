@@ -36,7 +36,16 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this,MainActivity6.class);
             startActivity(i);
         }
+        if(id==R.id.menu_about){
+            Toast.makeText(this, "Opening About Us.", Toast.LENGTH_SHORT).show();
+            Intent i = new Intent(this,MainActivity8.class);
+            startActivity(i);
+        }
+        if(id==R.id.menu_home){
+            recreate();
+        }
         return super.onOptionsItemSelected(item);
+
     }
 
     public void open(View view){
@@ -50,6 +59,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void open4(View view){
         Intent i = new Intent(this,MainActivity4.class);
+        startActivity(i);
+    }
+    public void open2(View view){
+        Intent i = new Intent(this,MainActivity7.class);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }
 }

@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="Hey folks Myself Harshit Shukla and currently am pursuing Btech from SRMIST in second year , Developer"
+                android:text="Student at SRM IST Ramapuram,Chennai | Member at Codechef SRM RMP | PR member at Codechef | Programmer | Fitness Enthusiast"
                 android:textColor="@color/white" />
 
             <LinearLayout
@@ -172,7 +172,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="Student at SRM IST Ramapurm, Chennai, Studying CSE 1st Year, Designer and Passionate Web Developer."
+                android:text="Student at SRM IST Ramapuram,Chennai | Member at Codechef SRM RMP |  member at Codechef | Programmer | Professional Cricketer and Fitness | Web developer and  Designer | Speaker"
                 android:textColor="@color/white" />
 
             <LinearLayout
@@ -218,7 +218,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="RAGUL R"
+                android:text="RAGUL S"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />

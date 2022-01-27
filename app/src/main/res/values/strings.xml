@@ -111,5 +111,60 @@ The exact make-up of a diversified, balanced and healthy diet will vary dependin
         Calories in Coffee 40 \n
         Calories in Tea 30 \n
     </string>
+    <string name="exercise_body_1">
+        \n
+        1)U can be in shape and u can have control on your weight.\n
+        2)Keeps u a miles away from Disease and other health conditions.\n
+        3)Physical Activities helps u in improving your mood.\n
+        4)It refreshes u a lot and gives u a energy boost.\n
+        5)It makes your sex life smooth and comfortable.\n
+        6)It helps you in getting better and deepen sleep.\n
+        7)Exercise makes you happy and provides a great fun.\n
+        8)Reduces the risk of Heart problems.\n
+        9)It helps you to quit smoking.\n
+        10)It helps to maintain sugar levels in your body.\n
+        11)helps in boosting your mind power,learning power and other skills.\n
+        12)Makes your muscles and bones grow more stronger.\n
+        13)It helps in keeping you away from cancers like diseases.\n
+        14)Increases your life expectancy.\n
+        15)Helps you in gaining confidence.\n
+    </string>
+
+    <string name="exercise_body_2">
+        \n
+        * Begin your journey from walking and you can calculate the number of steps by clicking above.\n
+        * Increase your pace daily and set your goals.\n
+        * Maintain your healthy diet.\n
+        * Maintain consistency and establish a routine.\n
+        * Make a new record every week of every exercise.\n
+        * Doing cardio will help you to loose weight rapidly and safely.\n
+        * Don’t over push yourself otherwise it may cause you angry.\n
+        * If you are not getting any results consult a trainer.\n
+        * Don’t take more calories(if u wanted to know how much calories you should intake you can refer healthy diet section).\n
+        * Effects would be observed in 4 weeks not in a single day so keep going.\n
+        * Enjoy your workout don’t take it as pressure accept it as a mandatory part of your life.\n
+        * After workout stretching must be done.\n
+        * Lift light weight dumbbells at an early stage.\n
+        * Work on one muscle per day.\n
+        * Start rewarding yourself to make new record every week.\n
+        * Don’t do cardio more than 30 minutes as it affects and causes muscle loss.
+    </string>
+
+    <string name="aboutus_body">
+        We care for you! And that is why we have curated (app name). The concept behind (app name) is a gift for people
+        who like to keep themselves fit and healthy. This app is a one stop solution where you get
+        access to all your health data, diet plan, fitness regime, mental health, cleanliness and more.
+        We\'ve rounded up some of the best health accessories that match your needs! \n\n\n
+
+        Key features:\n\n
+
+        - Calculate your BMI and other parameters on the go!\n
+        - Easily access to the calculation of BMR.\n
+        -You can get to know number of steps you walked at a time.\n
+        -It contains Meditation timer which tells you how much time you do and contains alarm which tells you that you have done it.\n\n\n
+
+        We\'re continuously looking out for ways to improve (app name). Let us know how we can improve by giving us your valuable feedback. And do not forget to leave us a review or rating!\n
+        (*) Developed by:-Harshit Shukla,Siddhartha Bhattacharjee,Priyanshu,Ragul S.
+    </string>
 
 </resources>

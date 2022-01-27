@@ -3,12 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2526041666666667" />
         <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main2.xml" value="0.23645833333333333" />
         <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main3.xml" value="0.264" />
         <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main4.xml" value="0.264" />
         <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main5.xml" value="0.23645833333333333" />
         <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main6.xml" value="0.22239583333333332" />
+        <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main7.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/layout/activity_main8.xml" value="0.23645833333333333" />
         <entry key="..\:/AndroidStudioTutorial/HealthAndHygene/app/src/main/res/menu/main_menu.xml" value="0.23645833333333333" />
       </map>
     </option>
