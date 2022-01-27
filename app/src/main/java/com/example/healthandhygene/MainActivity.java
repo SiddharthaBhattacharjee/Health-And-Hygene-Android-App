@@ -66,4 +66,12 @@ public class MainActivity extends AppCompatActivity {
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }
+    public void open8(View view){
+        Intent i = new Intent(this,MainActivity10.class);
+        startActivity(i);
+    }
+    public void open3(View view){
+        Intent i = new Intent(this,MainActivity11.class);
+        startActivity(i);
+    }
 }

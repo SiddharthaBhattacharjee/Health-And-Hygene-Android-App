@@ -211,6 +211,12 @@
                 android:onClick="openstepcounter"
                 android:text="Steps Counter" />
 
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/exer2" />
+
             <TextView
                 android:id="@+id/textView292"
                 android:layout_width="match_parent"
@@ -267,6 +273,12 @@
                 android:layout_marginTop="15dp"
                 android:text="@string/exercise_body_1"
                 android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="299dp"
+                app:srcCompat="@drawable/exer1" />
 
             <TextView
                 android:id="@+id/textView293"

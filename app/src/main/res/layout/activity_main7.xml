@@ -87,6 +87,60 @@
                 android:onClick="reset"
                 android:text="Reset" />
 
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center"
+                android:text="Meditation:An easy,quick way to be calm"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <View
+                android:id="@+id/divider25"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/meditation_bpdy1"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center"
+                android:text="WELLBEING"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+
+            <View
+                android:id="@+id/divider26"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/ordered_list"
+                android:textColor="@color/white" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

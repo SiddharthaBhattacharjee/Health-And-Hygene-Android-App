@@ -205,7 +205,7 @@
                     android:layout_height="158dp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"
-                    android:onClick="open"
+                    android:onClick="open3"
                     app:srcCompat="@drawable/yoga" />
 
                 <View
@@ -261,7 +261,7 @@
                     android:layout_height="158dp"
                     android:layout_gravity="right|center_vertical"
                     android:layout_marginRight="20dp"
-                    android:onClick="open"
+                    android:onClick="open8"
                     app:srcCompat="@drawable/cleanhome" />
 
             </FrameLayout>

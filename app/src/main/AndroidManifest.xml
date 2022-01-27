@@ -13,9 +13,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthAndHygene">
         <activity
+            android:name=".MainActivity11"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="Yoga"/>
+        <activity
+            android:name=".MainActivity10"
+            android:exported="false"
+            android:label="Healthy Home"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity9"
+            android:exported="false"
+            android:label="Chores Record"
+            android:parentActivityName=".MainActivity10" />
+        <activity
             android:name=".MainActivity8"
             android:exported="false"
-            android:label="About Us"/>
+            android:label="About Us" />
         <activity
             android:name=".MainActivity7"
             android:exported="false"

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_dark"
+    tools:context=".MainActivity10">
+
+    <ScrollView
+        android:id="@+id/scrollView8"
+        android:layout_width="365dp"
+        android:layout_height="686dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="CALENDER HEADING"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="opencalen"
+                android:text="Chores Record" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/healthyhome" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="Healthy and Hygiene Home"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <View
+                android:id="@+id/divider27"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="As we all live in our own home and we don’t even realise that there is somewhat connection between home and wealth.A home is called healthy only when there is proper means of hygiene maintained in all corners."
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="Dangers in our home"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <View
+                android:id="@+id/divider28"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Home is a place which makes you safe and keeps you healthy but home can make you in sick or difficult situations also as they may contain many health hazards like rodents, insects, cockroaches and some other diseases spreading creatures."
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="Tips which can make your healthy home"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <View
+                android:id="@+id/divider29"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/homeclean_body"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView432"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="Kitchens Made Healthy"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <View
+                android:id="@+id/divider292"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView442"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/homeclean2"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/healthyhomea" />
+
+            <TextView
+                android:id="@+id/textView433"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="How can you make home healthy let’s get to know"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <View
+                android:id="@+id/divider293"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView443"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/homeclean3"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

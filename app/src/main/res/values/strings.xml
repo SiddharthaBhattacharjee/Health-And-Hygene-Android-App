@@ -167,4 +167,70 @@ The exact make-up of a diversified, balanced and healthy diet will vary dependin
         (*) Developed by:-Harshit Shukla,Siddhartha Bhattacharjee,Priyanshu,Ragul S.
     </string>
 
+    <string name="meditation_bpdy1">
+        \n
+        1)The stress that is having in a person can be freed by meditation,it provides the calmness to body,\n
+        2)In case a person is disturbed ,tensed,sad,worried or stressful then he should meditate so that he can come out of that situation and can think the solution of the problems and can relax his inner peace.\n
+        3)Meditation is very easy practice,it does not require any thing or equipment.\n
+        4)Meditation can be practiced at any place whether we are walking,waiting,meeting,riding cabs and more.\n
+        5)It helps a person to control anxiety and pressure.\n
+        6)It helps to promote the emotional health and boosts slf awareness.\n
+        7)It helps an individual in reducing memory loss as he grows up.\n
+        8)It helps to fight us with addictions.\n
+        9)It increases the kindness, being polite and patience in a person.\n
+        10)It supports in decreasing the blood pressure.\n
+        11)It helps you to loose weight safely.\n
+        12)It helps in making healthy nervous system.
+    </string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="ordered_list">
+        \n
+        1)Well Being helps in boosting your mental and physical health.\n
+        2)Well Being helps in prevention from approaching diseases and other heart problems.\n
+        3)It helps in increasing the psychology,neuroscience and measurement theory and advancing it.\n
+        4) Well being is connected to numerous health, job, family, and economically related benefits.\n
+        5) Environmental and social resources for health can include various things like peace, economic security, a stable ecosystem, and safe housing.\n
+        6)  Well Being includes following types:-\n
+        •	Emotional well-being.\n
+        •	Psychological well-being.\n
+        •	Physical well-being.\n
+        •	Life satisfaction.\n
+        •	Domain specific satisfaction.\n
+        •	Engaging activities and work.\n
+        •	Social well-being.\n
+        •	Development and activity.\n
+        •	Economic well-being.\n
+        7) Self-acceptance:- It is a satisfaction or happiness with an individual. This includes an awareness of a person’s strengths and weaknesses. It results in an individual feeling that they are of unique worth.\n
+    </string>
+
+    <string name="homeclean_body">
+        \n
+        * Install smoke alarms in your houses and change the batteries every year.\n
+        * Keep your floor free from toys,shoes,clothing and other stuffs.\n
+        * Make sure you get walls painted every year as it will decrease the chances of spreading diseases and insects giving birth.\n
+        * Fix the leakage taps,walls,tiles and get it repaired.\n
+        * Throw used packets ,cups, rags in garbage.\n
+        * Make sure you make everything planned and in place.
+    </string>
+
+    <string name="homeclean2">
+        \n
+        * Don’t wear too long or too short sleeves clothes.\n
+        * Make sure carbon monoxide alarm is inatalled.\n
+        * Using stove or oven can harm you.\n
+        * Use safe pest or insect killing equipments.\n
+        * Never leave the food uncooked on stove.\n
+        * Kitchen exhaust fan or chimney must be there so that internal fumes and other harmful gases won’t able to harm you and can go out.
+    </string>
+
+    <string name="homeclean3">
+        *   Remove toxic things from sink,garage or basement.
+        *	Change batteries of the equipement that are there every year.
+        *	Your chimney should be sweeped or cleaned every after a span of two months.
+        *	Dusting your home is very important part.
+        *	Your rugs should be clean.
+        *	Medicine cabinet must be organised and well kept.
+    </string>
+
 </resources>
