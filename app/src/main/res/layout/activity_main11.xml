@@ -29,12 +29,10 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
-                android:layout_marginTop="25dp"
                 app:srcCompat="@drawable/yogaa" />
 
             <TextView
@@ -145,7 +143,7 @@
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
-                android:layout_height="372dp"
+                android:layout_height="wrap_content"
                 app:srcCompat="@drawable/bardh" />
 
             <TextView
@@ -155,6 +153,74 @@
                 android:text="Baddha Konasana, Bound Angle Pose, Butterfly Pose, or Cobbler's Pose (after the typical sitting position of Indian cobblers when they work), and historically called Bhadrasana, Throne Pose, is a seated asana in hatha yoga and modern yoga as exercise. If the knees rest on the floor, it is suitable as a meditation seat.  Stretches your knees, groin and hips, lower back and inner thighs.Stimulates your abdominal organs, ovaries, prostate glands and bladder.The asana help stimulate your cardiovascular activity and blood circula"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Parivritta Trikonasana (reverse triangle)"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yoga" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trikonasana or Utthita Trikonasana, Triangle Pose is a standing asana in modern yoga as exercise. Variations include Baddha Trikonasana (bound triangle pose) and Parivrtta Trikonasana (revolved triangle pose).  Increases stability. Activates your core muscles, which aids in balance and stability. Stretches and lengthens the spine. This pose can reduce stiffness in the spine and back, resulting in increased flexibility. "
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Supta Virasana (reclining hero)"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yoga" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Virasana or Hero Pose is a kneeling asana in modern yoga as exercise. Medieval hatha yoga texts describe a cross-legged meditation asana under the same name. Supta Virasana is the reclining form of the pose; it provides a stronger stretch.  Stretches the thighs, knees, and ankles. Strengthens the arches. Improves digestion and relieves gas. Helps relieve the symptoms of menopause."
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" Urdhva Dhanurasana (upwards bow)"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yoga" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chakrasana or Urdhva Dhanurasana is an asana in yoga as exercise. It is a backbend and is the first pose of the finishing sequence in Ashtanga Vinyasa Yoga. It gives great flexibility to the spine. In acrobatics and gymnastics this body position is called a bridge.  The chest expands and the lungs get more oxygen - this makes the pose especially beneficial for asthma patients. It reduces the stress and tension in the body. It also Sharpens eyesight.  "
+                android:textColor="@color/white" />
+
         </LinearLayout>
     </ScrollView>
 

@@ -225,12 +225,24 @@ The exact make-up of a diversified, balanced and healthy diet will vary dependin
     </string>
 
     <string name="homeclean3">
-        *   Remove toxic things from sink,garage or basement.
-        *	Change batteries of the equipement that are there every year.
-        *	Your chimney should be sweeped or cleaned every after a span of two months.
-        *	Dusting your home is very important part.
-        *	Your rugs should be clean.
-        *	Medicine cabinet must be organised and well kept.
+        \n
+        *   Remove toxic things from sink,garage or basement.\n
+        *	Change batteries of the equipement that are there every year.\n
+        *	Your chimney should be sweeped or cleaned every after a span of two months.\n
+        *	Dusting your home is very important part.\n
+        *	Your rugs should be clean.\n
+        *	Medicine cabinet must be organised and well kept.\n\n\n
+    </string>
+    <string name="foodsafe1">
+        \n
+        * Food Safety is a major part of the health,  It affects the survival, well-being, livelihood and productivity of individuals and eventually societies.\n
+        * Borne diseases indicates the public health burden and challenge.\n
+        * In the South-East Asia Region, nearly 150 million people fell ill with food borne diseases in 2010, which led to 175 000 deaths.\n
+        * Overuse of antimicrobials in veterinary and human medicine has led to antimicrobial resistance, which has now become one of the main threats to modern medicine.\n
+        * Street food, which is commonly consumed in all parts of the country, often poses a health hazard as it is contaminated with infectious viruses and bacteria, leading to various food borne diseases.\n
+        * The theme of the World Health Day 2015 was \‘From Farm to Plate, Make Food Safe\’, emphasizing the importance of looking at the entire food chain to make food safe. In India, food safety has obvious and direct linkages with the Swachh Bharat (Clean India) initiative of the Prime Minister.\n
+        * The Food Safety and Standards Authority of India (FSSAI) has been established under Food Safety and Standards , 2006 which consolidates various acts and orders that have hitherto handled food related issues in various Ministries and Departments. \n
+        * To get to more about food safety click on the link to understand.
     </string>
 
 </resources>

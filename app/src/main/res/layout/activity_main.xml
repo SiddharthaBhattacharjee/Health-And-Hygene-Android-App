@@ -50,7 +50,7 @@
                     android:fontFamily="@font/sacramento"
                     android:text="Health and Hygiene"
                     android:textColor="@color/white"
-                    android:textSize="30sp"
+                    android:textSize="26sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -144,7 +144,7 @@
                     android:layout_height="158dp"
                     android:layout_gravity="right|center_vertical"
                     android:layout_marginRight="20dp"
-                    android:onClick="open"
+                    android:onClick="open5"
                     app:srcCompat="@drawable/foodhygene" />
 
             </FrameLayout>
@@ -222,8 +222,8 @@
                     android:layout_height="158dp"
                     android:layout_gravity="right|center_vertical"
                     android:layout_marginRight="20dp"
-                    android:onClick="open"
-                    app:srcCompat="@drawable/publichygene" />
+                    android:onClick="open7"
+                    app:srcCompat="@drawable/who" />
 
             </FrameLayout>
 

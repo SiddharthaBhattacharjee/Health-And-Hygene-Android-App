@@ -61,6 +61,14 @@
                 android:text="The secret to the well-being of your mind and body is meditation. It will help you stay calm, energized, and focused. Daily meditation is a great habit to have. Meditate till the timer beeps. If you complete it, it will be longer next time. The goal is the progressive growth of meditation habits."
                 android:textColor="@color/white" />
 
+            <View
+                android:id="@+id/divider32"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
+
             <TextView
                 android:id="@+id/timer_view"
                 android:layout_width="match_parent"
