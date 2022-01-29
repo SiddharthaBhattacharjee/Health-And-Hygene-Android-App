@@ -164,7 +164,11 @@ The exact make-up of a diversified, balanced and healthy diet will vary dependin
         -It contains Meditation timer which tells you how much time you do and contains alarm which tells you that you have done it.\n\n\n
 
         We\'re continuously looking out for ways to improve (app name). Let us know how we can improve by giving us your valuable feedback. And do not forget to leave us a review or rating!\n
-        (*) Developed by:-Harshit Shukla,Siddhartha Bhattacharjee,Priyanshu,Ragul S.
+        (*) Developed by:-\n
+        \t\t Harshit Shukla,\n
+        \t\t Siddhartha Bhattacharjee,\n
+        \t\t Priyanshu,\n
+        \t\t Ragul S.
     </string>
 
     <string name="meditation_bpdy1">
@@ -231,7 +235,7 @@ The exact make-up of a diversified, balanced and healthy diet will vary dependin
         *	Your chimney should be sweeped or cleaned every after a span of two months.\n
         *	Dusting your home is very important part.\n
         *	Your rugs should be clean.\n
-        *	Medicine cabinet must be organised and well kept.\n\n\n
+        *	Medicine cabinet must be organised and well kept.\n
     </string>
     <string name="foodsafe1">
         \n

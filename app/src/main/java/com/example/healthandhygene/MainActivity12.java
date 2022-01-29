@@ -44,8 +44,7 @@ public class MainActivity12 extends AppCompatActivity {
 
     }
     public void webopen2(View view){
-        Intent i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse("https://fssai.gov.in/cms/about-fssai.php"));
+        Intent i = new Intent(this,MainActivity14.class);
         startActivity(i);
     }
 }

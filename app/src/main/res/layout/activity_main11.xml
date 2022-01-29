@@ -93,7 +93,7 @@
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="195dp"
                 app:srcCompat="@drawable/asana_a" />
 
             <TextView
@@ -118,7 +118,7 @@
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="248dp"
                 app:srcCompat="@drawable/ardha" />
 
             <TextView
@@ -143,7 +143,7 @@
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="335dp"
                 app:srcCompat="@drawable/bardh" />
 
             <TextView
@@ -167,8 +167,10 @@
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/yoga" />
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/catrikon" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -189,8 +191,8 @@
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/yoga" />
+                android:layout_height="353dp"
+                app:srcCompat="@drawable/vriksh" />
 
             <TextView
                 android:id="@+id/textView15"
@@ -211,8 +213,8 @@
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/yoga" />
+                android:layout_height="331dp"
+                app:srcCompat="@drawable/dhanu" />
 
             <TextView
                 android:id="@+id/textView17"

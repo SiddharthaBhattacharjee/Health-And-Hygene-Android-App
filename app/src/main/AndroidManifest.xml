@@ -13,15 +13,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthAndHygene">
         <activity
+            android:name=".MainActivity14"
+            android:exported="false"
+            android:label="FSSAI Website"
+            android:parentActivityName=".MainActivity12"/>
+        <activity
             android:name=".MainActivity13"
             android:exported="false"
-            android:parentActivityName=".MainActivity"
-            android:label="WHO P.W. Guidelines"/>
+            android:label="WHO P.W. Guidelines"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity12"
             android:exported="false"
-            android:parentActivityName=".MainActivity"
-            android:label="Food Safety"/>
+            android:label="Food Safety"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity11"
             android:exported="false"

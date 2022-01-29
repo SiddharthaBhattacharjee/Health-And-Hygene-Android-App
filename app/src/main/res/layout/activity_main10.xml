@@ -146,6 +146,13 @@
                 android:text="@string/homeclean_body"
                 android:textColor="@color/white" />
 
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/healthyhomea" />
+
             <TextView
                 android:id="@+id/textView432"
                 android:layout_width="wrap_content"
@@ -172,12 +179,6 @@
                 android:text="@string/homeclean2"
                 android:textColor="@color/white" />
 
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/healthyhomea" />
-
             <TextView
                 android:id="@+id/textView433"
                 android:layout_width="wrap_content"
@@ -202,6 +203,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/homeclean3"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="295dp"
+                app:srcCompat="@drawable/healthyhomeaabb" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="What are the benefits of Healthy home?"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <View
+                android:id="@+id/divider34"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="By keeping your home healthy you can have a healthy body and a decorum of personal hygiene is maintained.A means of freshness or calmness make your body more happy.It helps an individual or family away from diseases and you can live germ free from it.People will like coming to your home."
                 android:textColor="@color/white" />
         </LinearLayout>
     </ScrollView>

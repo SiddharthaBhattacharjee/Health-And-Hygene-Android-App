@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="Student at SRM IST Ramapuram,Chennai | Member at Codechef SRM RMP | PR member at Codechef | Programmer | Fitness Enthusiast"
+                android:text="Student at SRM IST Ramapuram,Chennai | Member at Codechef SRM RMP | PR member at Codechef | Programmer | Fitness Enthusiast | Speaker"
                 android:textColor="@color/white" />
 
             <LinearLayout

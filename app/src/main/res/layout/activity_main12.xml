@@ -57,26 +57,32 @@
                 android:text="@string/foodsafe1"
                 android:textColor="@color/white" />
 
-            <TableRow
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="40dp">
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center"
+                android:text="Click below to open FSSAI website to know more about food safety"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
 
-                <TextView
-                    android:id="@+id/textView48"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="FSSAI:  "
-                    android:textColor="@color/white" />
+            <View
+                android:id="@+id/divider33"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
 
-                <TextView
-                    android:id="@+id/textView49"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:onClick="webopen2"
-                    android:text="https://fssai.gov.in/cms/about-fssai.php"
-                    android:textColor="@color/blue" />
-            </TableRow>
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="228dp"
+                android:onClick="webopen2"
+                app:srcCompat="@drawable/fssai" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

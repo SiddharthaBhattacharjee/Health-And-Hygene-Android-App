@@ -223,7 +223,7 @@
                     android:layout_gravity="right|center_vertical"
                     android:layout_marginRight="20dp"
                     android:onClick="open7"
-                    app:srcCompat="@drawable/who" />
+                    app:srcCompat="@drawable/whoo" />
 
             </FrameLayout>
 
