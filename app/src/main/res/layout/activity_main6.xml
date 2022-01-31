@@ -42,14 +42,41 @@
                 android:background="?android:attr/listDivider"
                 android:backgroundTint="@color/white" />
 
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="HARSHIT SHUKLA"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
             <TextView
-                android:id="@+id/textView21"
+                android:id="@+id/textView56"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="HARSHIT SHUKLA"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="5dp"
+                android:text="(Team Leader)"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(Researcher)"
+                android:textColor="@color/white"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -110,6 +137,16 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(Developer)"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
                 android:id="@+id/textView232"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -167,6 +204,16 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(Designer)"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
                 android:id="@+id/textView233"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -221,6 +268,16 @@
                 android:text="RAGUL S"
                 android:textColor="@color/white"
                 android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(Presentation)"
+                android:textColor="@color/white"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <TextView

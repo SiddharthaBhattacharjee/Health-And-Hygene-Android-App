@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Make me Healthy</string>
+    <string name="app_name">Care For Me</string>
     <string name="diet_tips_head">
         25 Simple Tips to Make Your Diet Healthier :
     </string>
@@ -151,7 +151,7 @@ The exact make-up of a diversified, balanced and healthy diet will vary dependin
     </string>
 
     <string name="aboutus_body">
-        We care for you! And that is why we have curated (app name). The concept behind (app name) is a gift for people
+        We care for you! And that is why we have curated Care For Me. The concept behind Care For Me is a gift for people
         who like to keep themselves fit and healthy. This app is a one stop solution where you get
         access to all your health data, diet plan, fitness regime, mental health, cleanliness and more.
         We\'ve rounded up some of the best health accessories that match your needs! \n\n\n
@@ -161,9 +161,10 @@ The exact make-up of a diversified, balanced and healthy diet will vary dependin
         - Calculate your BMI and other parameters on the go!\n
         - Easily access to the calculation of BMR.\n
         -You can get to know number of steps you walked at a time.\n
+        -It records your chores to ensure you don\'t forget any and keep your house clean.\n
         -It contains Meditation timer which tells you how much time you do and contains alarm which tells you that you have done it.\n\n\n
 
-        We\'re continuously looking out for ways to improve (app name). Let us know how we can improve by giving us your valuable feedback. And do not forget to leave us a review or rating!\n
+        We\'re continuously looking out for ways to improve Care For Me. Let us know how we can improve by giving us your valuable feedback. And do not forget to leave us a review or rating!\n
         (*) Developed by:-\n
         \t\t Harshit Shukla,\n
         \t\t Siddhartha Bhattacharjee,\n
@@ -247,6 +248,40 @@ The exact make-up of a diversified, balanced and healthy diet will vary dependin
         * The theme of the World Health Day 2015 was \‘From Farm to Plate, Make Food Safe\’, emphasizing the importance of looking at the entire food chain to make food safe. In India, food safety has obvious and direct linkages with the Swachh Bharat (Clean India) initiative of the Prime Minister.\n
         * The Food Safety and Standards Authority of India (FSSAI) has been established under Food Safety and Standards , 2006 which consolidates various acts and orders that have hitherto handled food related issues in various Ministries and Departments. \n
         * To get to more about food safety click on the link to understand.
+    </string>
+
+    <string name="foodsafe2">
+        \n
+        *Store the food at safe temperatures i.e nor too hot nor too hot.Keep it at dry and away from sunlight.\n
+        *Keep your food clean and make it by using proper cleanliness.\n
+        *The food should be cooked thoroughly and well heated.\n
+        *Try your level best to use purified water and other raw materials in making a dish.\n
+        *Try to refrigerate the food properly so that it won’t stinks and spoiled,it can prevent you from diahorrea or other food poisoning diseases.\n
+        *See the condition of the food whether it’s not rotten ,if so then throw in dustbin.\n
+        *Wash fruits and vegetables every after two days so that proper hygiene is maintained.\n
+    </string>
+    <string name="sanitation">
+        \n
+        * In schools or colleges when there is the access to the safe and clean water and bathrooms they are the in the greatest mood to study. \n
+        Since Education is the key to success as that Cleanliness and hygiene is the key is to bright future.\n
+        * As lots of pandaemic like covid 19, flu are spreading at the large scale so we should keep sanitization because viruses are attractive towards the untidy place so keep yourself and your suurounding clean and santitized.\n
+        * Cleaning a place or thing is not good enough just by cloth or duster you have to use detergent or soap to clean it because it kills bacteria and other micro organisms on it. \n
+        * Clean the high-touched surfaces regularly after few intervals like switches,remotes,tables etc.\n
+        * Do not eat, drink, breathe, or inject cleaning and disinfection products into your body or apply directly to your skin as they can cause serious harm.\n
+        * We should wear the gloves while cleaning or sanitizing the surface. \n
+        * Clean the surfaces around a sick person using disinfectants or detergents. \n
+        * Clean the carpets and floor using a vaccum cleaner so that all the dust will be extracted from it.\n
+    </string>
+
+    <string name="sanitation2">
+        \n
+        * Wash your hands frequently every after 45 mins. \n
+        * Bathing is the most important part that we should not neglect.\n
+        * Cleaning of the items and floor should be done everyday and using a proper named disinfectant or detergent.\n
+        * Wash your hands for 30seconds using good alcohol handwash or use sanitizer instead.\n
+        * Since pandemic is there use of mask is a must and must be thrown every after 6 hours of using it.\n
+        * Brush daily so that the cavities won’t take place in your teeth and you are free to chew.\n
+        * Use your handkerchief while you are sneezing or having cough so that the germs won’t be transferred.
     </string>
 
 </resources>

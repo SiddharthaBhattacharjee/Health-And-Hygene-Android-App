@@ -44,13 +44,25 @@ public class MainActivity extends AppCompatActivity {
         if(id==R.id.menu_home){
             recreate();
         }
+        if(id==R.id.menu_share){
+            /*Create an ACTION_SEND Intent*/
+            Intent intent = new Intent(android.content.Intent.ACTION_SEND);
+            /*This will be the actual content you wish you share.*/
+            String shareBody = "Want to Stay Healthy but can't stay motivated to go to the gym?, Download Care For Me app today, and get progressive improvement and a healthy body.\n get app here : https://drive.google.com/drive/folders/1YhD42wdNopbNxjRTPS7UHSlM1nLZuJRW?usp=sharing ";
+            /*The type of the content is text, obviously.*/
+            intent.setType("text/plain");
+            /*Applying information Subject and Body.*/
+            intent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Share app link...");
+            intent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+            /*Fire!*/
+            startActivity(Intent.createChooser(intent, "Share using"));
+        }
         return super.onOptionsItemSelected(item);
 
     }
 
     public void open(View view){
         Intent i = new Intent(this,MainActivity2.class);
-        Toast.makeText(this, "Taking to next page...", Toast.LENGTH_SHORT).show();
         startActivity(i);
     }
     public void open1(View view){

@@ -83,6 +83,33 @@
                 android:onClick="webopen2"
                 app:srcCompat="@drawable/fssai" />
 
+            <TextView
+                android:id="@+id/textView462"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:gravity="center"
+                android:text="Ways by which you can keep your food safe"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+
+            <View
+                android:id="@+id/divider312"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/white" />
+
+            <TextView
+                android:id="@+id/textView472"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/foodsafe2"
+                android:textColor="@color/white" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

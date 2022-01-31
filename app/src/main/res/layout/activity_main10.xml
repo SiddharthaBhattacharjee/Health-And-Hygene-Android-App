@@ -186,7 +186,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/averia_gruesa_libre"
-                android:text="How can you make home healthy let’s get to know"
+                android:text="How can you make home healthy? let’s get to know"
                 android:textColor="@color/white"
                 android:textSize="28sp" />
 

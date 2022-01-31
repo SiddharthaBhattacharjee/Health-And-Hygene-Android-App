@@ -33,6 +33,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
+                android:layout_marginTop="20dp"
                 app:srcCompat="@drawable/yogaa" />
 
             <TextView
@@ -94,7 +95,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="195dp"
-                app:srcCompat="@drawable/asana_a" />
+                app:srcCompat="@drawable/yogaposea" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -119,7 +120,7 @@
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="248dp"
-                app:srcCompat="@drawable/ardha" />
+                app:srcCompat="@drawable/yogaposeb" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -144,7 +145,7 @@
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
                 android:layout_height="335dp"
-                app:srcCompat="@drawable/bardh" />
+                app:srcCompat="@drawable/yogaposec" />
 
             <TextView
                 android:id="@+id/textView10"

@@ -74,7 +74,7 @@
         <activity
             android:name=".MainActivity2"
             android:exported="false"
-            android:label="NEXT PAGE EMPTY"
+            android:label="SANITIZATION"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"

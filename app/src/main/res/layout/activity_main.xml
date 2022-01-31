@@ -167,7 +167,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="20dp"
                     android:onClick="open2"
-                    app:srcCompat="@drawable/meditate" />
+                    app:srcCompat="@drawable/meditationicon" />
 
                 <View
                     android:id="@+id/divider51"

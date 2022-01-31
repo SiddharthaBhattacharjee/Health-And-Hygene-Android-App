@@ -122,6 +122,12 @@
                 android:text="@string/meditation_bpdy1"
                 android:textColor="@color/white" />
 
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="296dp"
+                app:srcCompat="@drawable/wellbeingb" />
+
             <TextView
                 android:id="@+id/textView36"
                 android:layout_width="match_parent"
