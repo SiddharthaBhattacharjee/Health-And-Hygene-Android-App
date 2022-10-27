@@ -36,19 +36,11 @@ of their families. This page links the WHO guidelines that every user should fol
 tips on how user can keep their home clean. The page also features the Chores Record , a calender
 that helps user to keep record of cleaning activities so that no task is forgotten.
 
-ACKNOWLEDGEMENT : 
-
-We want to Thank Dr. T.P.Latchoumi (Professor at SRM IST Ramapuram) for guiding us through out the
-development of the app.
-We would also like to extend our regards to our families for always being there for us through out 
-day and night supporting us on doing our work.
-Last but not the least, we would Like to thank our teammates who have worked hard on developing
-this ap.
 Team Members :
-1) Harshit Shukla (Student at SRM IST Ramapuram , 2nd Year)
-2) Siddhartha Bhattacharjee (Student at SRM IST Ramapuram , 1st Year)
-3) Priyanshu Dash (Student at SRM IST Ramapuram , 1st Year)
-4) Ragul S (Student at SRM IST Ramapuram , 1st Year)
+1) Siddhartha Bhattacharjee
+2) Ansh Ojha
+3) Apoorv Harsh
+4) Raunak Raj Singh
 
 Source Link : https://github.com/SiddharthaBhattacharjee/Health-And-Hygene-Android-App <br>
 App Link : https://drive.google.com/drive/folders/1YhD42wdNopbNxjRTPS7UHSlM1nLZuJRW
