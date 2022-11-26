@@ -36,12 +36,6 @@ of their families. This page links the WHO guidelines that every user should fol
 tips on how user can keep their home clean. The page also features the Chores Record , a calender
 that helps user to keep record of cleaning activities so that no task is forgotten.
 
-Team Members :
-1) Siddhartha Bhattacharjee
-2) Ansh Ojha
-3) Apoorv Harsh
-4) Raunak Raj Singh
-
 Source Link : https://github.com/SiddharthaBhattacharjee/Health-And-Hygene-Android-App <br>
 App Link : https://drive.google.com/drive/folders/1YhD42wdNopbNxjRTPS7UHSlM1nLZuJRW
 
